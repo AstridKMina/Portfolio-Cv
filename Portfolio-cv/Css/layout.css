@@ -1,0 +1,120 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 0.5rem solid black; */
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    /* line-height: 2rem; */
+    max-width: 100%;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+    max-height: 100%;
+
+}
+
+.container {
+    max-width: 100%;
+    /* margin: 2rem; */
+    min-width: 400px;
+    background-color: white;
+
+}
+
+.height {
+    height: 100%;
+}
+
+.col-12 {
+    min-width: 100%;
+    padding: 1rem;
+
+}
+
+.col-11 {
+    width: calc(100% /12 * 11);
+    padding: 1rem;
+}
+
+.col-10 {
+    width: calc(100% /12 * 10);
+    padding: 1rem;
+}
+
+.col-9 {
+    width: calc(100% /12 * 9);
+    padding: 1rem;
+}
+
+.col-8 {
+    width: calc(100% /12 * 8);
+    padding: 1rem;
+}
+
+.col-7 {
+    width: calc(100% /12 * 7);
+    padding: 1rem;
+}
+
+.col-6 {
+    width: calc(100% /12 * 6);
+    padding: 1rem;
+
+}
+
+.col-5 {
+    width: calc(100% /12 * 5);
+    padding: 1rem;
+}
+
+.col-4 {
+    width: calc(100% /12 * 4);
+    padding: 1rem;
+}
+
+.col-3 {
+    width: calc(100% /12 * 3);
+    padding: 1rem;
+
+}
+
+.col-2 {
+    width: calc(100% /12 * 2);
+    padding: 1rem;
+
+}
+
+.col-1 {
+    width: calc(100% /12 * 1);
+    padding: 1rem;
+}
+
+footer {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+span {
+    color: #8e7bef;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+

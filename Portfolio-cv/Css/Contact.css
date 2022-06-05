@@ -1,0 +1,62 @@
+.contact {
+    height: 100%;
+    margin-bottom: 5rem;
+}
+
+#txt {
+    margin: 0 5vw;
+    /* margin-left: 5vw; */
+}
+
+.Contact-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+
+}
+
+.Cimages {
+    margin-right: 10vw;
+    /* margin: 0 auto; */
+    object-fit: contain;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 15vw;
+    height: 12vw;
+    background-color: #f9f5f2;
+    border-radius: 20%;
+    padding: 4rem 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-txt {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+
+
+
+
+/* .imagen {
+    margin: 0 auto;
+    width: 7rem;
+    padding: 1rem 1rem;
+    background: pink;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

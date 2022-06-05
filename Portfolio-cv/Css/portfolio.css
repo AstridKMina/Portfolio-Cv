@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.portafolio {
+    margin-bottom: 3rem;
+}
+
+.Pimages {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 1rem;
+
+}
+
+.Pimages1 img {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 1rem;*/
+    /* margin-left: 0.5rem;  */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    float: left;
+   
+}
+
+
+.portafolio-text {
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 5vw;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+   
+}
+
+.image-text {
+    text-align: start;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
